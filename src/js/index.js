@@ -1,15 +1,16 @@
 (function ($) {
-    $('#citiesTable').DataTable( {
-        "ajax": "http://localhost:9080/api/v1/cities",
+    $('#homesTable').DataTable( {
+        "ajax": "http://localhost:9080/api/v1/homes",
         "columns": [
-            { "data": "id" },
-            { "data": "fldName" },
-            { "data": "fldLat" },
-            { "data": "fldLong" },
-            { "data": "fldCountry" },
-            { "data": "fldAbbreviation" },
-            { "data": "fldCapitalStatus" },
-            { "data": "fldPopulation" }
+            { "data": "sell" },
+            { "data": "list" },
+            { "data": "living" },
+            { "data": "rooms" },
+            { "data": "beds" },
+            { "data": "baths" },
+            { "data": "age" },
+            { "data": "acres" },
+            { "data": "taxes" }
 
         ]
     } );
