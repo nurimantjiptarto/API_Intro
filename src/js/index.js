@@ -1,6 +1,6 @@
 (function ($) {
     $('#homesTable').DataTable( {
-        "ajax": "http://localhost:9080/api/v1/homes",
+        "ajax": "http://localhost:9081/api/v1/homes",
         "columns": [
             { "data": "sell" },
             { "data": "list" },

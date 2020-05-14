@@ -20,7 +20,7 @@ function nodeMonServe() {
         ext: 'js',
         env: {
             NODE_ENV: 'dev',
-            PORT: 9080
+            PORT: 9081
         },
         ignore: ['./node_modules/**']
     });

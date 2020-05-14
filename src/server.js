@@ -4,7 +4,7 @@ const app = express();
 const open = require("open");
 
 app.use(express.static('docs'));
-open("http://localhost:9080");
+open("http://localhost:9081");
 
 
 app.get('/api/v1/homes', function(req, res) {

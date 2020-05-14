@@ -1,8 +1,8 @@
 CREATE DATABASE homesData;
-use homesData;
+USE homesData;
 
 CREATE TABLE IF NOT EXISTS `tblHomesImport` (
-    `id` int NOT NULL AUTO_INCREMENT,
+    `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `sell` VARCHAR(3) CHARACTER SET utf8,
     `list` INT,
     `living` INT,
@@ -12,8 +12,6 @@ CREATE TABLE IF NOT EXISTS `tblHomesImport` (
     `age` INT,
     `acres` NUMERIC(3, 2),
     `taxes` INT
-    PRIMARY KEY (`id`)
-
 
 );
 INSERT INTO tblHomesImport(sell, list, living, rooms, beds, baths, age, acres, taxes) VALUES
